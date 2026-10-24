@@ -1,17 +1,22 @@
 # endnote-analysis
 
-**EndNote 文献分析团** · v0.3.1 · `team`
+**EndNote 分析团** · v0.3.1 · `team`
 
-> Offline EndNote library analysis: topic clustering & evolution, keyword co-occurrence network, reading status, duplicate detection, staleness warnings, robustness and effect-size checks, plus a one-click literature-review skeleton. Read-only, Python-first.
+> EndNote library analysis — bibliometric and citation-structure insights
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
 
-- **endnote-analysis**
-- **review-skeleton**
+- **Network mapping** — citation and co-occurrence structures out of your EndNote library
+- **Review outlining** — a review skeleton you can actually write against, grounded in the mapped structure
+
+## How it works
+
+- Two specialists on top of two skills: `endnote-analysis` for extraction and mapping, `review-skeleton` for the writing frame
+- Built on the author's own daily literature-management workflow
 
 ## Agent roster
 
@@ -21,16 +26,23 @@ Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) co
 | `network-mapper` | 共现网络解读 - 织网（成员） |
 | `review-outliner` | 综述骨架生成 - 构纲（成员） |
 
+## Skills
+
+`endnote-analysis` · `review-skeleton`
+
 ## Install
 
 1. Download the package zip from [Releases](https://github.com/Lucewalk/endnote-analysis/releases) or clone this repo;
-2. Unzip keeping the internal manifest structure intact;
+2. Unzip keeping the `.codebuddy-plugin/` manifest structure intact;
 3. Import/register in WorkBuddy (custom connector → trust & enable).
+
 
 ## Version
 
-Current release: **v0.3.1** — see [CHANGELOG.md](CHANGELOG.md) if present, or the package manifest.
+Current release: **v0.3.1**. See the package manifest for details.
+
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
